@@ -10,8 +10,8 @@ function Login() {
       </header>
       <section className="w-2/3 flex flex-col justify-center items-center bg-gradient-to-b from-slate-300 via-slate-50 to-slate-300">
         <form className="mt-10 w-2/3 h-2/3 flex flex-col justify-end items-center">
-          <p className="text-2xl font-extrabold w-3/5 text-center mb-16">
-            Olá de novo, Digite seu Email e Senha, para poder voltar a escrever e ver os comentários.
+          <p className="text-2xl font-extrabold w-3/5 text-center mb-14">
+            Olá! Digite seu email e senha para acessar o Blog-CRUD.
           </p>
           <div className="flex flex-col items-center mb-4">
             <label htmlFor="email-input">
