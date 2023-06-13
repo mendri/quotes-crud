@@ -1,8 +1,15 @@
+import { Route, Routes } from "react-router-dom"
+import Home from "./Pages/Home"
+import Login from "./Pages/Login"
+import HandleUrl from "./Pages/HandleUrl"
+
 function App() {
   return (
-    <>
-      <h1>Blog-CRUD</h1>
-    </>
+    <Routes>
+      <Route path="/login" element={<Login />}></Route>
+      <Route path="/home" element={<Home />}></Route>
+      <Route path="/" element={<HandleUrl />}></Route>
+    </Routes>
   )
 }
 
