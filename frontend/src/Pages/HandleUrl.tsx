@@ -1,6 +1,8 @@
+import { Navigate } from "react-router-dom"
+
 function HandleUrl() {
   return (
-    <h1>Handle</h1>
+    <Navigate to="/login" />
   )
 }
 
