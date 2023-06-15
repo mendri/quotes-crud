@@ -1,12 +1,13 @@
 import { useNavigate } from "react-router-dom"
-import SubmitHeaderBlogCRUD from "../Components/SubmitHeaderBlogCRUD"
 
 function Login() {
   const navigate = useNavigate()
 
   return (
     <main className="w-full h-full flex">
-      <SubmitHeaderBlogCRUD main_color="indigo" sub_color="cyan" />
+      <header className="w-1/3 flex justify-center bg-gradient-to-b from-indigo-700 via-cyan-500 to-indigo-700">
+        <h1 className="mt-8 text-6xl text-white">Blog-CRUD</h1>
+      </header>
       <section className="w-2/3 flex flex-col justify-center items-center bg-gradient-to-b from-slate-300 via-slate-50 to-slate-300">
         <form className="mt-10 w-2/3 h-2/3 flex flex-col justify-end items-center" onSubmit={ (e) => e.preventDefault() }>
           <p className="text-2xl font-extrabold w-3/5 text-center mb-14">
