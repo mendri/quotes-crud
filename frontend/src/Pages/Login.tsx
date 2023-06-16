@@ -1,7 +1,16 @@
 import { useNavigate } from "react-router-dom"
+import { useDispatch } from "react-redux"
+import { feedUser } from "../Features/user/UserSlice"
 
 function Login() {
+  const username = "carlos"
+  const email = "carlos@email.com"
   const navigate = useNavigate()
+  const dispatch = useDispatch()
+
+  function handleClick() {
+    dispatch(feedUser({username, email}))
+  }
 
   return (
     <main className="w-full h-full flex">
@@ -24,7 +33,7 @@ function Login() {
             </label>
           </div>
           <div className="w-full flex flex-col items-center">
-            <button className="mb-2 text-white text-xl font-bold w-4/12 h-10 rounded-lg bg-gradient-to-tr from-cyan-300 to-cyan-500 shadow-2xl">
+            <button className="mb-2 text-white text-xl font-bold w-4/12 h-10 rounded-lg bg-gradient-to-tr from-cyan-300 to-cyan-500 shadow-2xl" onClick={handleClick}>
               Logar
             </button>
             <button className="mb-2 text-white text-xl font-bold w-4/12 h-10 rounded-lg bg-gradient-to-tr from-orange-300 to-orange-500 shadow-2xl" onClick={() => navigate("/register")}>
