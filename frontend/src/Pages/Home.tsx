@@ -1,6 +1,10 @@
 function Home() {
   return (
-    <h1>Home</h1>
+    <main>
+      <header>
+        <h1>Home</h1>
+      </header>
+    </main>
   )
 }
 
