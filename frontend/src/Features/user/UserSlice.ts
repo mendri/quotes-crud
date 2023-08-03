@@ -2,7 +2,7 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit"
 import IUserSlice from "../../Interfaces/IUserSlice"
 
 const initialState: IUserSlice = {
-  username: "",
+  username: "Num Sei",
   email: ""
 }
 
@@ -12,7 +12,6 @@ export const userSlice = createSlice({
   reducers: {
     feedUser: (state: IUserSlice, action: PayloadAction<IUserSlice>) => {
       state.email = action.payload.email
-      state.username = action.payload.username
     }
   }
 })

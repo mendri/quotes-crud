@@ -1,5 +1,5 @@
 interface IUserSlice {
-  username: string,
+  username?: string,
   email: string
 }
 

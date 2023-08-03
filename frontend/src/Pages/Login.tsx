@@ -1,15 +1,39 @@
+import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { useDispatch } from "react-redux"
 import { feedUser } from "../Features/user/UserSlice"
 
 function Login() {
-  const username = "carlos"
-  const email = "carlos@email.com"
   const navigate = useNavigate()
   const dispatch = useDispatch()
 
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [error, setError] = useState([false, ""])
+
+  function fieldValidation(emailInput: string, passwordInput: string) {
+    const EMAIL_REGEX = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+
+    if (!EMAIL_REGEX.test(emailInput)) {
+      console.log(EMAIL_REGEX.test(emailInput))
+      throw new Error("Email não está no formato correto")
+    }
+
+    if (passwordInput.length < 8) {
+      throw new Error("Password tem que ter 8 dígitos")
+    }
+  }
+
   function handleClick() {
-    dispatch(feedUser({username, email}))
+    try {
+      fieldValidation(email, password)
+      dispatch(feedUser({email}))
+      navigate("/home")
+    } catch (e) {
+      if (e instanceof Error) {
+        setError([true, e.message])
+      }
+    }
   }
 
   return (
@@ -22,14 +46,19 @@ function Login() {
           <p className="text-2xl font-extrabold w-3/5 text-center mb-14">
             Olá! Digite seu email e senha para acessar o Blog-CRUD.
           </p>
+          {
+            error[0]
+            ? <p className="mb-14 text-base font-bold text-red-600">{error[1]}</p>
+            : null
+          }
           <div className="flex flex-col items-center mb-4">
             <label htmlFor="email-input">
-              <input placeholder="Email" id="email-input" type="email" className="mt-2 p-1 border-2 border-gray-400 shadow-2xl"/>
+              <input placeholder="Email" onChange={(e) => setEmail(e.target.value)} id="email-input" type="email" className="mt-2 p-1 border-2 border-gray-400 shadow-2xl"/>
             </label>
           </div>
           <div className="flex flex-col items-center mb-8">
             <label htmlFor="pass-input">
-              <input placeholder="Senha" id="pass-input" type="password" className="mt-2 p-1 border-2 border-gray-400 shadow-2xl"/>
+              <input placeholder="Senha" onChange={(e) => setPassword(e.target.value)} id="pass-input" type="password" className="mt-2 p-1 border-2 border-gray-400 shadow-2xl"/>
             </label>
           </div>
           <div className="w-full flex flex-col items-center">
