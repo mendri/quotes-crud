@@ -2,6 +2,7 @@ import { useSelector } from "react-redux"
 import { RootState } from "../store"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
+import post_examples from "../Mock/post_examples"
 
 function Home() {
   const userEmail = useSelector((state: RootState) => state.user.email)
@@ -32,9 +33,17 @@ function Home() {
           <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
           <input className="w-3/5 h-7 text-center rounded-xl" placeholder="Pesquise um post"/>
         </div>
-        <article>
-          <h1>Olá mundo</h1>
-        </article>
+        {
+          post_examples.map((element) => {
+            return (
+              <article>
+                <p>{element.author}</p>
+                <p>{element.message}</p>
+                <p>{element.likes}</p>
+              </article>
+            )
+          })
+        }
       </section>
     </main>
   )
