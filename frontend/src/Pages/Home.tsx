@@ -9,8 +9,32 @@ function Home() {
   console.log(userEmail)
 
   return (
-    <main className="flex h-full w-full">
-      <header className="w-1/5 bg-gradient-to-b from-white via-slate-200 to-white">
+    <main className="flex min-h-full w-full">
+      <section className="w-4/5 bg-sky-300 flex flex-col items-center">
+        <div className="fixed w-full mt-8 flex justify-center items-center">
+          <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
+          <input className="w-2/5 h-7 border-2 shadow-2xl text-center rounded-xl bg-slate-100" placeholder="Pesquise um post"/>
+        </div>
+        <div className="mt-28 w-full flex flex-col justify-evenly items-center">
+          {
+            post_examples.map((element) => {
+              return (
+                <article className="w-4/6 mt-8 border-2 border-gray-500 bg-slate-100">
+                  <div>
+                    <div className="w-4 h-4"></div>
+                    <p>{element.author}</p>
+                  </div>
+                  <div>
+                    <p>{element.message}</p>
+                  </div>
+                  <div></div>
+                </article>
+              )
+            })
+          }
+        </div>
+      </section>
+      <header className="fixed right-0 w-1/5 h-full bg-gradient-to-b from-white via-slate-200 to-white">
         <div className="flex justify-center">
           <img src="src/Images/Blog-CRUD-logo.png"></img>
         </div>
@@ -22,29 +46,12 @@ function Home() {
             <a href="/profile">Perfil</a>
           </div>
           <div className="flex flex-col items-center text-xl font-serif text-slate-600">
-            <p>"Ícone do usuário"</p>
-            <p>"Nome do usuário"</p>
-            <p>{userEmail}</p>
+            <p className="text-center">"Ícone do usuário"</p>
+            <p className="text-center">"Nome do usuário"</p>
+            <p className="text-center">{userEmail}</p>
           </div>
         </div>
       </header>
-      <section className="w-4/5 bg-sky-300 flex flex-col items-center">
-        <div className="w-full mt-4 flex justify-center items-center">
-          <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
-          <input className="w-3/5 h-7 text-center rounded-xl" placeholder="Pesquise um post"/>
-        </div>
-        {
-          post_examples.map((element) => {
-            return (
-              <article>
-                <p>{element.author}</p>
-                <p>{element.message}</p>
-                <p>{element.likes}</p>
-              </article>
-            )
-          })
-        }
-      </section>
     </main>
   )
 }

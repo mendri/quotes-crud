@@ -40,6 +40,38 @@ const post_examples = [
       }
     ]
   },
+  {
+    "author": "Novo usuário",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet dapibus ornare. Phasellus vel neque nibh. Sed finibus magna nec libero tempor semper. Ut fringilla suscipit porttitor. In imperdiet semper finibus. Suspendisse velit erat, laoreet at justo viverra, tincidunt efficitur mi. Aenean vehicula, neque quis pharetra posuere, justo mi luctus nisi, at mollis tellus nibh sed elit. Duis pellentesque congue porttitor. Proin aliquam ligula vitae iaculis dapibus. Quisque ultrices rhoncus ex eget ornare. Phasellus commodo ipsum nisl, nec cursus nisi consequat sed. Fusce dapibus mi elit, vitae porta lacus ultrices quis. ",
+    "likes": 0,
+    "comments": []
+  },
+  {
+    "author": "Novo usuário",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet dapibus ornare. Phasellus vel neque nibh. Sed finibus magna nec libero tempor semper. Ut fringilla suscipit porttitor. In imperdiet semper finibus. Suspendisse velit erat, laoreet at justo viverra, tincidunt efficitur mi. Aenean vehicula, neque quis pharetra posuere, justo mi luctus nisi, at mollis tellus nibh sed elit. Duis pellentesque congue porttitor. Proin aliquam ligula vitae iaculis dapibus. Quisque ultrices rhoncus ex eget ornare. Phasellus commodo ipsum nisl, nec cursus nisi consequat sed. Fusce dapibus mi elit, vitae porta lacus ultrices quis. ",
+    "likes": 0,
+    "comments": []
+  },
+  {
+    "author": "Novo usuário",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet dapibus ornare. Phasellus vel neque nibh. Sed finibus magna nec libero tempor semper. Ut fringilla suscipit porttitor. In imperdiet semper finibus. Suspendisse velit erat, laoreet at justo viverra, tincidunt efficitur mi. Aenean vehicula, neque quis pharetra posuere, justo mi luctus nisi, at mollis tellus nibh sed elit. Duis pellentesque congue porttitor. Proin aliquam ligula vitae iaculis dapibus. Quisque ultrices rhoncus ex eget ornare. Phasellus commodo ipsum nisl, nec cursus nisi consequat sed. Fusce dapibus mi elit, vitae porta lacus ultrices quis. ",
+    "likes": 0,
+    "comments": []
+  },
+  {
+    "author": "Novo usuário",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet dapibus ornare. Phasellus vel neque nibh. Sed finibus magna nec libero tempor semper. Ut fringilla suscipit porttitor. In imperdiet semper finibus. Suspendisse velit erat, laoreet at justo viverra, tincidunt efficitur mi. Aenean vehicula, neque quis pharetra posuere, justo mi luctus nisi, at mollis tellus nibh sed elit. Duis pellentesque congue porttitor. Proin aliquam ligula vitae iaculis dapibus. Quisque ultrices rhoncus ex eget ornare. Phasellus commodo ipsum nisl, nec cursus nisi consequat sed. Fusce dapibus mi elit, vitae porta lacus ultrices quis. ",
+    "likes": 0,
+    "comments": []
+  },
+  {
+    "author": "Novo usuário",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet dapibus ornare. Phasellus vel neque nibh. Sed finibus magna nec libero tempor semper. Ut fringilla suscipit porttitor. In imperdiet semper finibus. Suspendisse velit erat, laoreet at justo viverra, tincidunt efficitur mi. Aenean vehicula, neque quis pharetra posuere, justo mi luctus nisi, at mollis tellus nibh sed elit. Duis pellentesque congue porttitor. Proin aliquam ligula vitae iaculis dapibus. Quisque ultrices rhoncus ex eget ornare. Phasellus commodo ipsum nisl, nec cursus nisi consequat sed. Fusce dapibus mi elit, vitae porta lacus ultrices quis. ",
+    "likes": 0,
+    "comments": []
+  },
 ]
+
+
 
 export default post_examples
