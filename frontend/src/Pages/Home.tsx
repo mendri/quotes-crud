@@ -2,11 +2,24 @@ import { useSelector } from "react-redux"
 import { RootState } from "../store"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
-import post_examples from "../Mock/post_examples"
-import Post from "../Components/Post"
+import { useEffect, useState } from "react"
+import Quotable_Api from "../Axios/Quotable_Api"
+import Quotes from "../Components/Quotes"
+import IQuote from "../Interfaces/IQuote"
 
 function Home() {
+  const [quotes, setQuotes] = useState<Array<IQuote>>([])
   const userEmail = useSelector((state: RootState) => state.user.email)
+
+  async function fetchQuotes() {
+    const response = await Quotable_Api.get("/random?limit=50")
+    setQuotes(response.data)
+  }
+
+  useEffect(() => {
+    fetchQuotes()
+  }, [])
+
   console.log(userEmail)
 
   return (
@@ -18,9 +31,9 @@ function Home() {
         </div>
         <div className="mt-28 w-full flex flex-col justify-evenly items-center">
           {
-            post_examples.map((element) => {
+            quotes.map((element) => {
               return (
-                <Post post_data={element} />
+                <Quotes key={element._id} quotes_data={element} />
               )
             })
           }
