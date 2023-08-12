@@ -20,8 +20,6 @@ function Home() {
     fetchQuotes()
   }, [])
 
-  console.log(userEmail)
-
   return (
     <main className="flex min-h-full w-full">
       <section className="w-4/5 bg-gradient-to-r from-indigo-600 to-indigo-500 flex flex-col items-center">
