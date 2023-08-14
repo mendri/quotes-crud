@@ -39,12 +39,12 @@ function Login() {
   return (
     <main className="w-full h-full flex">
       <header className="w-1/3 flex justify-center bg-gradient-to-b from-indigo-700 via-cyan-500 to-indigo-700">
-        <h1 className="mt-8 text-6xl text-white">Blog-CRUD</h1>
+        <h1 className="mt-8 text-6xl text-white">Quotes-CRUD</h1>
       </header>
       <section className="w-2/3 flex flex-col justify-center items-center bg-gradient-to-b from-slate-300 via-slate-50 to-slate-300">
         <form className="mt-10 w-2/3 h-2/3 flex flex-col justify-end items-center" onSubmit={ (e) => e.preventDefault() }>
           <p className="text-2xl font-extrabold w-3/5 text-center mb-14">
-            Olá! Digite seu email e senha para acessar o Blog-CRUD.
+            Olá! Digite seu email e senha para acessar o Quotes-CRUD.
           </p>
           {
             error[0]

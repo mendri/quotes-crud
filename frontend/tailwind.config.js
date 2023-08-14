@@ -9,6 +9,7 @@ export default {
     minHeight: {
       "200": "200px",
       "400": '400px',
+      "100vh": "100vh"
     }
   },
   plugins: [],
