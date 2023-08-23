@@ -28,6 +28,7 @@ function Login() {
     try {
       fieldValidation(email, password)
       dispatch(feedUser({email}))
+      localStorage.setItem("user-email", email)
       navigate("/home")
     } catch (e) {
       if (e instanceof Error) {

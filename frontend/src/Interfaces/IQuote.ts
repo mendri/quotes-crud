@@ -1,3 +1,5 @@
+import IComments from "./IComments";
+
 interface IQuote {
   _id: number;
   content: string;
@@ -5,6 +7,8 @@ interface IQuote {
   tags: Array<string>;
   dateAdded: string;
   dateModified: string;
+  comments: Array<IComments>;
+  likes: number;
 }
 
 export default IQuote
