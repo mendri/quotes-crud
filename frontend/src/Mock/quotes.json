@@ -1,0 +1,745 @@
+[
+  {
+    "_id": "AUGTBH2V__b",
+    "content": "True friends stab you in the front.",
+    "author": "Oscar Wilde",
+    "tags": [
+      "Friendship",
+      "Famous Quotes"
+    ],
+    "authorSlug": "oscar-wilde",
+    "length": 35,
+    "dateAdded": "2019-11-16",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": [
+      {
+        "author": "Galileo Galilei",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet libero sit amet quam tempor semper id a tellus. Pellentesque viverra justo nisi",
+        "likes": 10
+      },
+      {
+        "author": "Galileo Galilei",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet libero sit amet quam tempor semper id a tellus. Pellentesque viverra justo nisi",
+        "likes": 10
+      },
+      {
+        "author": "Bruce Lee",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet libero sit amet quam tempor semper id a tellus. Pellentesque viverra justo nisi",
+        "likes": 9
+      },
+      {
+        "author": "Winston Churchill",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet libero sit amet quam tempor semper id a tellus. Pellentesque viverra justo nisi",
+        "likes": 8
+      },
+      {
+        "author": "Winifred Holtby",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet libero sit amet quam tempor semper id a tellus. Pellentesque viverra justo nisi",
+        "likes": 7
+      },
+      {
+        "author": "Bernard Shaw",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet libero sit amet quam tempor semper id a tellus. Pellentesque viverra justo nisi",
+        "likes": 6
+      }
+    ]
+  },
+  {
+    "_id": "u03ZNGHYHV80",
+    "content": "Life is so constructed that an event does not, cannot, will not, match the expectation.",
+    "author": "Charlotte Brontë",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "charlotte-bronte",
+    "length": 87,
+    "dateAdded": "2019-12-14",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "w8y_LUEZQZwe",
+    "content": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.",
+    "author": "Laozi",
+    "tags": [
+      "Famous Quotes",
+      "Wisdom"
+    ],
+    "authorSlug": "laozi",
+    "length": 109,
+    "dateAdded": "2020-03-27",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "HQNnn2x2Vc",
+    "content": "A passion for politics stems usually from an insatiable need, either for power, or for friendship and adulation, or a combination of both.",
+    "author": "Fawn M. Brodie",
+    "tags": [
+      "Friendship",
+      "Politics"
+    ],
+    "authorSlug": "fawn-m-brodie",
+    "length": 138,
+    "dateAdded": "2019-10-03",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "5nKZ-l81UF",
+    "content": "When the world is so complicated, the simple gift of friendship is within all of our hands.",
+    "author": "Maria Shriver",
+    "tags": [
+      "Friendship"
+    ],
+    "authorSlug": "maria-shriver",
+    "length": 91,
+    "dateAdded": "2020-01-27",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "vtzyn3LKIA",
+    "author": "Wayne Gretzky",
+    "content": "A good hockey player plays where the puck is. A great hockey player plays where the puck is going to be.",
+    "tags": [
+      "Sports",
+      "Competition"
+    ],
+    "authorSlug": "wayne-gretzky",
+    "length": 104,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "3Jk60HlbZFu9",
+    "content": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.",
+    "author": "Harriet Tubman",
+    "tags": [
+      "Famous Quotes",
+      "Success",
+      "Inspirational"
+    ],
+    "authorSlug": "harriet-tubman",
+    "length": 165,
+    "dateAdded": "2021-05-05",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "Nx1D0o8jYu8",
+    "content": "Imagination is the highest kite one can fly.",
+    "author": "Lauren Bacall",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "lauren-bacall",
+    "length": 44,
+    "dateAdded": "2019-02-11",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "AdVXiA8jCiT",
+    "content": "Reality leaves a lot to the imagination.",
+    "author": "John Lennon",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "john-lennon",
+    "length": 40,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "eOGgo5Kj2tu",
+    "author": "The Buddha",
+    "content": "When watching after yourself, you watch after others. When watching after others, you watch after yourself.",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "the-buddha",
+    "length": 107,
+    "dateAdded": "2023-03-30",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "spBflSxoTt",
+    "content": "A long habit of not thinking a thing wrong gives it a superficial appearance of being right.",
+    "author": "Thomas Paine",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "thomas-paine",
+    "length": 92,
+    "dateAdded": "2021-01-30",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "-5LundE5jXD",
+    "author": "Erma Bombeck",
+    "content": "If a man watches three football games in a row, he should be declared legally dead.",
+    "tags": [
+      "Sports",
+      "Humorous"
+    ],
+    "authorSlug": "erma-bombeck",
+    "length": 83,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "0UycoCApLT",
+    "author": "Alan Watts",
+    "content": "Trying to define yourself is like trying to bite your own teeth.",
+    "tags": [
+      "Humorous"
+    ],
+    "authorSlug": "alan-watts",
+    "length": 64,
+    "dateAdded": "2022-03-12",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "rXZQtra6Obce",
+    "content": "If opportunity doesn't knock, build a door.",
+    "author": "Milton Berle",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "milton-berle",
+    "length": 43,
+    "dateAdded": "2021-02-12",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "GQl3vxcYr-",
+    "content": "Beware of false knowledge; it is more dangerous than ignorance.",
+    "author": "Bernard Shaw",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "bernard-shaw",
+    "length": 63,
+    "dateAdded": "2020-09-29",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "1YkUWV_0wT",
+    "author": "The Buddha",
+    "content": "Give, even if you only have a little.",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "the-buddha",
+    "length": 37,
+    "dateAdded": "2023-03-30",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "x7tlrkytHdDg",
+    "content": "Instead of saying that man is the creature of circumstance, it would be nearer the mark to say that man is the architect of circumstance.",
+    "author": "Thomas Carlyle",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "thomas-carlyle",
+    "length": 137,
+    "dateAdded": "2019-10-12",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "HL4UTxkSa_Zq",
+    "content": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice.",
+    "author": "Oprah Winfrey",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "oprah-winfrey",
+    "length": 100,
+    "dateAdded": "2019-12-14",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "kc_i68XUTzm9",
+    "content": "If you spend too much time thinking about a thing, you'll never get it done.",
+    "author": "Bruce Lee",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "bruce-lee",
+    "length": 76,
+    "dateAdded": "2020-12-17",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "_Ai5yulUS-s0",
+    "content": "People are not lazy. They simply have impotent goals - that is, goals that do not inspire them.",
+    "author": "Tony Robbins",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "tony-robbins",
+    "length": 95,
+    "dateAdded": "2020-02-07",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "CF7uqSGvDt",
+    "content": "Know what's important and what isn't. Have the wisdom to know the right thing to do, the integrity to do it, the character to stand up to those who don't, and the courage to stop those who won't.",
+    "author": "Mark Goulston",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "mark-goulston",
+    "length": 195,
+    "dateAdded": "2020-04-02",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "gvD3xZyOVd3b",
+    "content": "Creativity comes from trust. Trust your instincts. And never hope more than you work.",
+    "author": "Rita Mae Brown",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "rita-mae-brown",
+    "length": 85,
+    "dateAdded": "2019-10-12",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "zMXSJtfKVxBW",
+    "content": "I cannot always control what goes on outside. But I can always control what goes on inside.",
+    "author": "Wayne Dyer",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "wayne-dyer",
+    "length": 91,
+    "dateAdded": "2020-04-02",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "GzemxoxHgF2P",
+    "content": "What matters is the value we've created in our lives, the people we've made happy and how much we've grown as people.",
+    "author": "Daisaku Ikeda",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "daisaku-ikeda",
+    "length": 117,
+    "dateAdded": "2020-11-10",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "6Nwqa1uVLe",
+    "content": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
+    "author": "Cicero",
+    "tags": [
+      "Friendship"
+    ],
+    "authorSlug": "cicero",
+    "length": 106,
+    "dateAdded": "2019-07-03",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "_Nz3ZoTdMe",
+    "content": "Step with care and great tact and remember that Life's a Great Balancing Act.",
+    "author": "Dr. Seuss",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "dr-seuss",
+    "length": 77,
+    "dateAdded": "2020-03-01",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "gXJa2hBwIpVh",
+    "content": "Arriving at one point is the starting point to another.",
+    "author": "John Dewey",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "john-dewey",
+    "length": 55,
+    "dateAdded": "2021-01-10",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "-heGK76DT1GP",
+    "content": "It has never been my object to record my dreams, just to realize them.",
+    "author": "Man Ray",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "man-ray",
+    "length": 70,
+    "dateAdded": "2020-01-31",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "lDffUvkJEnv0",
+    "content": "What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds.",
+    "author": "Wayne Dyer",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "wayne-dyer",
+    "length": 109,
+    "dateAdded": "2019-03-15",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "XduO9RALT6t6",
+    "content": "I always wanted to be somebody, but I should have been more specific.",
+    "author": "Lily Tomlin",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "lily-tomlin",
+    "length": 69,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "NZjOnL1Piu",
+    "content": "Love is rarer than genius itself. And friendship is rarer than love.",
+    "author": "Charles Péguy",
+    "tags": [
+      "Friendship",
+      "Love"
+    ],
+    "authorSlug": "charles-peguy",
+    "length": 68,
+    "dateAdded": "2020-01-15",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "CDRr80kEq75j",
+    "content": "We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+    "author": "Chuck Swindoll",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "chuck-swindoll",
+    "length": 101,
+    "dateAdded": "2020-01-26",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "y-o6i7QcoSA7",
+    "content": "The best way to pay for a lovely moment is to enjoy it.",
+    "author": "Richard Bach",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "richard-bach",
+    "length": 55,
+    "dateAdded": "2019-02-17",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "ZIUHncH2frxc",
+    "content": "The winner ain't the one with the fastest car it's the one who refuses to lose.",
+    "author": "Dale Earnhardt",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "dale-earnhardt",
+    "length": 79,
+    "dateAdded": "2021-01-10",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "N9DdmRDmPU",
+    "content": "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
+    "author": "Isaac Asimov",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "isaac-asimov",
+    "length": 106,
+    "dateAdded": "2020-03-15",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "H02wWGf1IC",
+    "content": "Once a new technology rolls over you, if you're not part of the steamroller, you're part of the road.",
+    "author": "Stewart Brand",
+    "tags": [
+      "Technology"
+    ],
+    "authorSlug": "stewart-brand",
+    "length": 101,
+    "dateAdded": "2019-12-02",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "oPdH3snIjkes",
+    "content": "Never, never, never give up.",
+    "author": "Winston Churchill",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "winston-churchill",
+    "length": 28,
+    "dateAdded": "2019-02-17",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "iDSY05hYTVIU",
+    "content": "All truths are easy to understand once they are discovered; the point is to discover them.",
+    "author": "Galileo Galilei",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "galileo-galilei",
+    "length": 90,
+    "dateAdded": "2019-10-18",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "8ckx1hj821s9",
+    "content": "The key to growth is the introduction of higher dimensions of consciousness into our awareness.",
+    "author": "Laozi",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "laozi",
+    "length": 95,
+    "dateAdded": "2020-04-02",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "y1RIkUSWFpl",
+    "content": "The greatest remedy for anger is delay.",
+    "author": "Seneca the Younger",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "seneca-the-younger",
+    "length": 39,
+    "dateAdded": "2019-10-18",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "vBKEzNMvWrF",
+    "content": "Whatever we expect with confidence becomes our own self-fulfilling prophecy.",
+    "author": "Brian Tracy",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "brian-tracy",
+    "length": 76,
+    "dateAdded": "2019-03-24",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "CFy490n4lo8g",
+    "content": "Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary.",
+    "author": "Margaret Cousins",
+    "tags": [
+      "Change",
+      "Life",
+      "Wisdom"
+    ],
+    "authorSlug": "margaret-cousins",
+    "length": 112,
+    "dateAdded": "2019-09-19",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "b6IAh5Z4Seu",
+    "content": "The sum of wisdom is that time is never lost that is devoted to work.",
+    "author": "Ralph Waldo Emerson",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "ralph-waldo-emerson",
+    "length": 69,
+    "dateAdded": "2020-02-27",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "JIk3cbQ8s",
+    "author": "Michael Jordan",
+    "content": "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
+    "tags": [
+      "Sports",
+      "Competition",
+      "Famous Quotes"
+    ],
+    "authorSlug": "michael-jordan",
+    "length": 224,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "HewRwT9KnT7S",
+    "content": "Give a man a fish and you feed him for a day. Teach him how to fish and you feed him for a lifetime.",
+    "author": "Laozi",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "laozi",
+    "length": 100,
+    "dateAdded": "2019-09-23",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "tjKgOoz27y",
+    "content": "We should not judge people by their peak of excellence; but by the distance they have traveled from the point where they started.",
+    "author": "Henry Ward Beecher",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "henry-ward-beecher",
+    "length": 129,
+    "dateAdded": "2019-08-16",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "EgCOqrOa1",
+    "content": "Learning is the beginning of wealth. Learning is the beginning of health. Learning is the beginning of spirituality. Searching and learning is where the miracle process all begins.",
+    "author": "Jim Rohn",
+    "tags": [
+      "Inspirational"
+    ],
+    "authorSlug": "jim-rohn",
+    "length": 180,
+    "dateAdded": "2020-09-29",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "2wYjTZiTUSgQ",
+    "content": "The things that one most wants to do are the things that are probably most worth doing.",
+    "author": "Winifred Holtby",
+    "tags": [
+      "Wisdom"
+    ],
+    "authorSlug": "winifred-holtby",
+    "length": 87,
+    "dateAdded": "2021-05-12",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "4uAgduNKEAKW",
+    "content": "For everything that lives is holy, life delights in life.",
+    "author": "William Blake",
+    "tags": [
+      "Famous Quotes"
+    ],
+    "authorSlug": "william-blake",
+    "length": 57,
+    "dateAdded": "2020-05-21",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  },
+  {
+    "_id": "DNp5YdIcsG",
+    "content": "I never considered a difference of opinion in politics, in religion, in philosophy, as cause for withdrawing from a friend.",
+    "author": "Thomas Jefferson",
+    "tags": [
+      "Friendship"
+    ],
+    "authorSlug": "thomas-jefferson",
+    "length": 123,
+    "dateAdded": "2021-01-11",
+    "dateModified": "2023-04-14",
+    "likes": 7,
+    "comments": []
+  }
+]

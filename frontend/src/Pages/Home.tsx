@@ -1,19 +1,18 @@
-import { useSelector } from "react-redux"
-import { RootState } from "../store"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 import { useEffect, useState } from "react"
-import Quotable_Api from "../Axios/Quotable_Api"
 import Quotes from "../Components/Quotes"
 import IQuote from "../Interfaces/IQuote"
+import mockedQuotes from "../Mock/quotes.json"
 
 function Home() {
   const [quotes, setQuotes] = useState<Array<IQuote>>([])
-  const userEmail = useSelector((state: RootState) => state.user.email)
+  const userEmail = localStorage.getItem("user-email")
 
   async function fetchQuotes() {
-    const response = await Quotable_Api.get("/random?limit=50")
-    setQuotes(response.data)
+    localStorage.setItem("quotes", JSON.stringify(mockedQuotes))
+    const response = JSON.parse(localStorage.getItem("quotes") as string)
+    setQuotes(response)
   }
 
   useEffect(() => {
