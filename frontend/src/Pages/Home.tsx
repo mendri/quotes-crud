@@ -20,23 +20,8 @@ function Home() {
   }, [])
 
   return (
-    <main className="flex min-h-full w-full">
-      <section className="w-4/5 min-h-100vh bg-gradient-to-r from-indigo-600 to-indigo-500 flex flex-col items-center">
-        <div className="fixed w-full mt-8 flex justify-center items-center shado">
-          <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
-          <input className="w-2/5 h-7 border-2 text-center rounded-xl bg-slate-100" placeholder="Pesquise um post"/>
-        </div>
-        <div className="mt-28 w-full flex flex-col justify-evenly items-center">
-          {
-            quotes.map((element) => {
-              return (
-                <Quotes key={element._id} quotes_data={element} />
-              )
-            })
-          }
-        </div>
-      </section>
-      <header className="fixed right-0 w-1/5 h-full bg-gradient-to-r from-slate-300 via-slate-50 to-slate-300">
+    <main>
+      <header className="fixed w-1/5 h-full bg-gradient-to-r from-slate-300 via-slate-50 to-slate-300">
         <a href="/home" className="flex justify-center">
           <img className="hover:" src="src/Images/Quotes-CRUD.png"></img>
         </a>
@@ -53,6 +38,21 @@ function Home() {
           </div>
         </div>
       </header>
+      <section className="absolute w-4/5 right-0 min-h-100vh bg-gradient-to-r from-indigo-600 to-indigo-500 flex flex-col items-center">
+        <div className="fixed w-full mt-8 flex justify-center items-center shado">
+          <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
+          <input className="w-2/5 h-7 border-2 text-center rounded-xl bg-slate-100" placeholder="Pesquise um post"/>
+        </div>
+        <div className="mt-28 w-full flex flex-col justify-evenly items-center">
+          {
+            quotes.map((element) => {
+              return (
+                <Quotes key={element._id} quotes_data={element} />
+              )
+            })
+          }
+        </div>
+      </section>
     </main>
   )
 }
