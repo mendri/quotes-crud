@@ -43,7 +43,11 @@ function Home() {
           <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
           <input className="w-2/5 h-7 border-2 text-center rounded-xl bg-slate-100" placeholder="Pesquise um post"/>
         </div>
-        <div className="mt-28 w-full flex flex-col justify-evenly items-center">
+        <div className="mt-28 w-full flex justify-center">
+          <textarea placeholder="ESCREVA UMA PODEROSA FRASE AQUI!" className="w-3/5 h-40 p-4 rounded-lg shadow-lg resize-none" />
+        </div>
+
+        <div className="mt-6 w-full flex flex-col justify-evenly items-center">
           {
             quotes.map((element) => {
               return (
