@@ -11,6 +11,7 @@ function UserQuoteInput() {
 
   function handleKey(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
       handleUserQuoteBtn()
     }
   }
