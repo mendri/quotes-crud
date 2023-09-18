@@ -4,6 +4,7 @@ import Login from "./Pages/Login"
 import HandleUrl from "./Pages/HandleUrl"
 import Register from "./Pages/Register"
 import Notifications from "./Pages/Notifications"
+import Profile from "./Pages/Profile"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/home" element={<Home />} />
       <Route path="/notifications" element={<Notifications />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="/" element={<HandleUrl />} />
     </Routes>
   )

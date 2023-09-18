@@ -17,7 +17,7 @@ function UserQuoteInput() {
   }
 
   return (
-    <div className="h-40 mt-28 w-full flex justify-center">
+    <div className="h-40 mt-20 w-full flex justify-center">
       <div className="flex justify-center relative w-3/5">
         <textarea
           onChange={(e) => setUserQuote(e.target.value)}
