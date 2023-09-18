@@ -1,0 +1,17 @@
+[
+  {
+    "sender": "Autor Genérico 1",
+    "message": "Mensagem relativamente curta genérica 1",
+    "date": "01/01/2023"
+  },
+  {
+    "sender": "Autor Genérico 2",
+    "message": "Mensagem relativamente curta genérica 2",
+    "date": "02/02/2023"
+  },
+  {
+    "sender": "Autor Genérico 3",
+    "message": "Mensagem relativamente curta genérica 3",
+    "date": "03/03/2023"
+  }
+]

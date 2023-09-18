@@ -24,12 +24,13 @@ function Home() {
     <main>
       <HeaderQuotesCRUD />
       <section className="absolute w-4/5 right-0 min-h-100vh bg-gradient-to-r from-indigo-600 to-indigo-500 flex flex-col items-center">
-        <div className="fixed w-2/5 mt-8 flex justify-center items-center">
+        <p className="text-6xl font-extrabold text-white p-10">Home</p>
+        <div className="w-3/5 mt-10 flex justify-center items-center">
           <FontAwesomeIcon className="relative left-6" icon={faMagnifyingGlass} />
-          <input className="w-full h-7 border-2 text-center rounded-xl bg-slate-100" placeholder="Pesquise um post"/>
+          <input className="w-full p-1 border-2 text-center rounded-xl bg-slate-100" placeholder="Pesquise um post"/>
         </div>
         <UserQuoteInput />
-        <div className="mt-6 w-full flex flex-col justify-evenly items-center">
+        <div className="mt-20 w-full flex flex-col justify-evenly items-center">
           {
             quotes.map((element) => {
               return (
